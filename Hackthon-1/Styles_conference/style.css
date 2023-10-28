@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #293f50;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.topside{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 200px;
+    text-transform: uppercase;
+}
+nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.Stylesc{
+    width: 300px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+.sdate{
+    margin-top: 20px;
+    color: #7ab2c0;
+}
+.sdate p{
+    margin-left: 195px;
+}
+.duals{
+    margin-top: 10px;
+}
+.rightmenu{
+    margin-top: 30px;
+}
+.rightmenu a{
+    padding: 5px;
+    margin: 5px;
+}
+.topside a:hover{
+    color: #7ab2c0;
+}
+.topside-body{
+    margin: 60px 250px 0px 250px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+.topside-body h1{
+    color: #7ab2c0;
+    margin: 15px;
+}
+.topside-body p{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 15px;
+}
+.topside-body input{
+    width: 170px;
+    height: 65px;
+    padding: 5px;
+    margin: 20px;
+    background:transparent;
+    color: aliceblue;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.topside-body input:hover{
+    background-color: rgb(255, 255, 255);
+    color:#5490a0;
+}
+.middleside{
+    background-color: rgb(252, 248, 229);
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+}
+.middleside-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 180px;
+}
+.middleside-align div{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+.middleside-align img{
+    width: 280px;
+    height: 200px;
+    border-radius: 5px;
+}
+.displaydiv h3, .displaydiv a, .displaydiv p{
+    margin: 10px;
+    text-decoration: none;
+    color: #293f50;
+}
+.displaydiv h3{
+    text-transform: uppercase;
+    font-size: small;
+}
+.displaydiv a:hover{
+    color: #7ab2c0;
+}
+.bottomside{
+    width: 100vw;
+    height: 110px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.bottom-menu{
+    display: flexbox;
+    justify-content: space-evenly;
+    margin-left: 280px;
+}
+.bottom-menu a{
+    margin: 10px;
+    text-decoration: none;
+    color: wheat;
+    display: inline-block;
+    position: relative;
+    font-size: small;
+}
+.bottom-menu a:hover{
+    color: #7ab2c0;
+}
+.copyright{
+    color: #7ab2c0;
+    margin-left: 30px;
+}

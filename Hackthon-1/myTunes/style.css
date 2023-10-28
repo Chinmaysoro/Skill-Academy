@@ -1,0 +1,144 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* position: absolute;
+    margin: auto; */
+}
+nav{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+nav a{
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    font-size: larger;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+}
+
+nav a:hover{
+    box-shadow: 0px 0px 15px rgb(255, 208, 121);
+    color: rgb(255, 208, 121);
+    transition:0.2s ease;
+    transform: scale(1.2);
+}
+
+.mainview{
+    width: 100vw;
+    height: 100vh;
+    color: aliceblue;
+    background: url(guitar-1699501.jpg);
+    background-size: cover;
+    /* position: absolute; */
+}
+.mainview-div{
+    width: auto;
+    height: 100vh;
+    margin: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainview-div h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 65px;
+    margin: 50px;
+}
+.mainview-div h3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 20px;
+}
+.mainview-div p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+}
+
+.second-div{
+    z-index: 998;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(mockup1.png);
+    background-size: cover;
+    position: absolute;
+    /* margin: 100vh 0px; */
+}
+
+
+@media screen and (max-width: 532px){
+    nav{
+        /* background: transparent; */
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 999;
+    }
+    nav a{
+        margin: 0px;
+        text-align: center;
+        padding: 6px;
+        font-size: medium;
+        text-decoration: none;
+        color: white;
+        border-radius: 12px;
+    }
+    .mainview-div{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .mainview-div h1{
+        text-align: center;
+        font-weight: 400;
+        font-size: 65px;
+    }
+    .mainview-div h3{
+        text-align: center;
+        font-weight: 400;
+        font-size: 35px;
+        margin: 20px;
+    }
+    .mainview-div p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 300;
+        margin: 10px;
+    }
+    .mainview{
+        width: 100vw;
+        height: 100vh;
+        background: url(hands-1851426_1920.jpg);
+        background-size:cover;
+    }
+}
+
