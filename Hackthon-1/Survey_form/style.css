@@ -1,13 +1,14 @@
+/* Universial default value */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
-
+/* Body height setted to fullscreen */
 body,html{
     height: 100%;
 }
-
+/* Background image added */
 .background-image{
     background: url(pexels-fauxels-3184405.jpg);
     height: 200vh;
@@ -18,11 +19,13 @@ body,html{
     filter: blur(3px) brightness(0.8);
 
 }
+/* Container display property added */
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+/* Navigation bar designed */
 nav{
     width: 100vw;
     height: auto;
@@ -33,6 +36,7 @@ nav{
     position: fixed;
     z-index: 999;
 }
+/* Left navigation bar styling done */
 .left-nav{
     margin-left: 30px;
 }
@@ -58,7 +62,7 @@ nav{
     height: 15px;
     margin:5px 10px;
 }
-
+/*style added to follow button*/
 #follow a{
     text-decoration: none;
     color: black;
@@ -67,6 +71,7 @@ nav{
     padding: 3px;
     border-radius: 5px;
 }
+/*hover effect added to follow button*/
 #follow a:hover{
     color: aliceblue;
 }
@@ -76,7 +81,7 @@ nav{
     font-weight: 600;
     font-size: 20px;
 }
-
+/* Right navigation bar designed */
 .right-nav{
     display: flex;
     margin-right: 25px;
@@ -85,6 +90,7 @@ nav{
     border: 1px solid black;
     margin: 5px;
 }
+/* fevorite icon styling done */
 #hearticon{
     display: flex;
     justify-content: center;
@@ -109,6 +115,7 @@ nav{
     font-size: large;
     text-decoration: none;
 }
+/* Signup designed */
 #signup{
     display: flex;
     justify-content: center;
@@ -122,11 +129,13 @@ nav{
     text-decoration: none;
 
 }
+/* hover effect added to signup*/
 #signup:hover{
     color: white;
     background-color: #2e874a;
     
 }
+/* Login designed */
 #login{
     display: flex;
     justify-content: center;
@@ -139,9 +148,11 @@ nav{
     color: white;
     text-decoration: none;
 }
+/* Hover effect added to multiple items*/
 #viewcode:hover, #login:hover, #hearticon:hover{
     background-color: #696f87;
 }
+/* Main display containt designed */
 .main-containt{
     width: 100vw;
     height: auto;
@@ -160,6 +171,7 @@ nav{
     margin: 10px 0px;
     font-size: larger;
 }
+/* Form designed */
 #main-formbody{
     width: 60vw;
     height: auto;
@@ -170,22 +182,26 @@ nav{
     align-items: center;
     border-radius: 10px;
 }
+/* Main Form description designed */
 #main-form legend{
     font-weight: 600;
     font-size: 20px;
     color: white;
     margin: 25px 0px 7px 0px;
 }
+/*style added arranger inside main form*/
 .arranger{
     width: 100%;
     font-weight: 100;
     font-size: 20px;
 }
+/* form radio button designed */
 .radio-check{
     font-size: 20px;
     color: white;
     padding: 10px;
 }
+/* form checkbox designed */
 .arranger-checkbox{
     width: 100%;
     font-weight: 100;
@@ -193,14 +209,17 @@ nav{
     padding: 10px;
     color: white;
 }
+/* hints designed */
 .monochar{
     font-style: oblique;
 }
+/* textarea designed */
 textarea{
     width: 100%;
     height: 100px;
     font-size: larger;
 }
+/* Submit button designed */
 #submit{
     width: 100%;
     height: 40px;

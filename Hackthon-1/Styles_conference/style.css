@@ -1,21 +1,26 @@
+/* Universial default value added */
 *{
     margin: 0px;
     padding: 0px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* background color added to body */
 body{
     background-color: #293f50;
 }
+/* Main container designed */
 .container{
     display: flex;
     flex-direction: column;
     position: absolute;
 }
+/* styling added to top division */
 .topside{
     width: 100vw;
     height: 70vh;
     position: relative;
 }
+/* Navigation bar designed */
 nav{
     display: flex;
     flex-direction: row;
@@ -23,6 +28,7 @@ nav{
     margin: 30px 200px;
     text-transform: uppercase;
 }
+/* anchor tag of navigation bar designed */
 nav a{
     margin-top: 20px;
     text-decoration: none;
@@ -78,16 +84,19 @@ nav a{
     border-radius: 7px;
     font-size: 20px;
 }
+/* hover effect added */
 .topside-body input:hover{
     background-color: rgb(255, 255, 255);
     color:#5490a0;
 }
+/* Middle division styled */
 .middleside{
     background-color: rgb(252, 248, 229);
     width: 100vw;
     height: 65vh;
     position: relative;
 }
+/* Middle alignment styled */
 .middleside-align{
     display: flex;
     flex-direction: row;
@@ -114,9 +123,11 @@ nav a{
     text-transform: uppercase;
     font-size: small;
 }
+/* hover effect added to anchor tag for color */
 .displaydiv a:hover{
     color: #7ab2c0;
 }
+/* design to Bottom division added */
 .bottomside{
     width: 100vw;
     height: 110px;
@@ -126,11 +137,13 @@ nav a{
     align-items: center;
 
 }
+/* Bottom menu styled */
 .bottom-menu{
     display: flexbox;
     justify-content: space-evenly;
     margin-left: 280px;
 }
+/* anchor tag designing done */
 .bottom-menu a{
     margin: 10px;
     text-decoration: none;
@@ -139,9 +152,11 @@ nav a{
     position: relative;
     font-size: small;
 }
+/* hover effect added to bottom menu */
 .bottom-menu a:hover{
     color: #7ab2c0;
 }
+/* copyright designed */
 .copyright{
     color: #7ab2c0;
     margin-left: 30px;
