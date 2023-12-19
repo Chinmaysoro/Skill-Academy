@@ -257,15 +257,21 @@ function nextPage(){
 //Final page loder function...
 //
 
-setInterval(timeSpan,1000);
+let theInterval = setInterval(timeSpan, 1000);
 // setTimeout (theTimeInterval, 10000);
 //
+function stopInterval(){
+  clearInterval(theInterval);
+}
+//Above code/function is to clear time interval...
+
 
 
 //Below data is for result page...
 //
 
 function loadAllData(){
+  stopInterval()
   document.querySelector('#name-display').innerText = localStorage.getItem("userName");
   document.querySelector('#attempted-counter').innerText = localStorage.getItem('attemptedqstn') || 0;
   document.querySelector('#un-attempted-counter').innerText = 10-localStorage.getItem('attemptedqstn') || 0;
